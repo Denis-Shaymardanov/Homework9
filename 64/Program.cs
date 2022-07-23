@@ -6,7 +6,7 @@ void PrintNumbers(int n)
 {
     if (n==0) return;
     Console.Write(n + " ");
-    PrintNumbers(n-1);
+    PrintNumbers(n--);
 }
 
 Console.WriteLine("Введите N");
